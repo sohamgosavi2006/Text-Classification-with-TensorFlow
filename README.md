@@ -1,5 +1,7 @@
 TEXT CLASSIFICATION WITH TENSORFLOW
 
+The Model has Accuracy of around 72 Percent
+
 This project focuses on building a text classification model with TensorFlow to perform sentiment analysis on the IMDB movie reviews dataset. The task is to classify reviews as either positive or negative based on their textual content. The dataset is loaded using TensorFlow Datasets (TFDS) and split into training, validation, and test sets for proper evaluation. Preprocessing techniques are applied to clean and prepare the text data, and the model leverages pre-trained embeddings from TensorFlow Hub to capture semantic meaning more effectively. A deep learning model is then built and trained using the TensorFlow Keras API, and its performance is evaluated through metrics like accuracy and loss. This project demonstrates the complete workflow of text classification—from dataset preparation and preprocessing to training, evaluation, and interpretation of results—while showcasing the power of transfer learning in natural language processing tasks.
 
 
